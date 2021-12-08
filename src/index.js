@@ -3,18 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import HomePage from './pages/homepage/homepage.component';
-// import Expenses from "./routes/expenses";
-// import Invoices from "./routes/invoices";
-// import Invoice from "./routes/invoice";
-
-const HatsPage = () => (
-  <div>
-    <h1>HATS PAGE</h1>
-  </div>
-);
-
+import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.render(
   <BrowserRouter>
