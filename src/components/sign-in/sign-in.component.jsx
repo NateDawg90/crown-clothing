@@ -30,7 +30,7 @@ const SignIn = () => {
         <FormInput 
           name="password" 
           type='password' 
-          value={email} 
+          value={password} 
           handleChange={e => setPassword(e.target.value)}
           label='password'
           required 
